@@ -1,38 +1,38 @@
 # About
 
-Source code for https://mkorostoff.github.io/1-pixel-wealth/
+Source code for https://mkorostoff.github.io/1-pixel-amazon/
 
 # Translations and Adaptations
 
-This page has been translated by volunteers into thirteen languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
+This page has been translated by volunteers into thirteen languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-amazon/issues/8#issuecomment-622964168). Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-amazon/issues/new) and I'll update this readme.
 
-- [Spanish/Español 1](https://cjbarroso.com/1-pixel-wealth)
-- [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
-- [Spanish/Español 3](https://hmijail.github.io/1-pixel-wealth/es)
-- [Spanish/Español 4](https://jsandovalc.github.io/1-pixel-wealth)
-- [Spanish/Español 5](https://dotmanu.github.io/1-pixel-wealth/) (rewritten for Spain)
-- [Portuguese/Português](https://flpms.github.io/1-pixel-wealth)
-- [German/Deutsch](https://eattherichtextformat.github.io/1-pixel-wealth/de/)
-- [Russian/русский](https://aensidhe.ru/1-pixel-wealth/)
-- [Romanian/Română](https://github.com/andreicristianpetcu/1-pixel-wealth)
-- [Chinese/中文](https://doodledu.github.io/1-pixel-wealth)
+- [Spanish/Español 1](https://cjbarroso.com/1-pixel-amazon)
+- [Spanish/Español 2](https://jhoon.github.io/1-pixel-amazon/es)
+- [Spanish/Español 3](https://hmijail.github.io/1-pixel-amazon/es)
+- [Spanish/Español 4](https://jsandovalc.github.io/1-pixel-amazon)
+- [Spanish/Español 5](https://dotmanu.github.io/1-pixel-amazon/) (rewritten for Spain)
+- [Portuguese/Português](https://flpms.github.io/1-pixel-amazon)
+- [German/Deutsch](https://eattherichtextformat.github.io/1-pixel-amazon/de/)
+- [Russian/русский](https://aensidhe.ru/1-pixel-amazon/)
+- [Romanian/Română](https://github.com/andreicristianpetcu/1-pixel-amazon)
+- [Chinese/中文](https://doodledu.github.io/1-pixel-amazon)
 - [Czech/čeština](https://kerray.github.io/1-pixel-bohatstvi)
-- [French/Française](https://tgluis.github.io/1-pixel-wealth/)
+- [French/Française](https://tgluis.github.io/1-pixel-amazon/)
 - [Dutch/Nederlands](https://jobveldhuis.github.io/1-pixel-weelde/)
-- [Italian/Italiano 1](https://lostcrew.github.io/1-pixel-wealth)
-- [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/) (rewritten for Italy)
-- [Farsi/فارسی](https://hkalbasi.github.io/etc/1-pixel-wealth/)
-- [Turkish/Türk](https://seaque.github.io/1-pixel-wealth/)
-- [Polish/Polskie](https://adamklimowski.github.io/1-pixel-wealth/)
+- [Italian/Italiano 1](https://lostcrew.github.io/1-pixel-amazon)
+- [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-amazon/) (rewritten for Italy)
+- [Farsi/فارسی](https://hkalbasi.github.io/etc/1-pixel-amazon/)
+- [Turkish/Türk](https://seaque.github.io/1-pixel-amazon/)
+- [Polish/Polskie](https://adamklimowski.github.io/1-pixel-amazon/)
 
 # Select Sources
 
-_[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-wealth/issues/40#issuecomment-648932718)_
+_[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-amazon/issues/40#issuecomment-648932718)_
 
 - [Wealth of richest people](https://www.forbes.com/forbes-400/#15b032877e2f)
 - [Perceptions of inequality](https://www.ncbi.nlm.nih.gov/pubmed/26162108)
 - [Salaries of various professions](https://money.usnews.com/careers)
-- [Inequality in earnings](https://www.usatoday.com/story/money/2018/01/22/vast-majority-new-wealth-last-year-went-top-1/1051947001/)
+- [Inequality in earnings](https://www.usatoday.com/story/money/2018/01/22/vast-majority-new-amazon-last-year-went-top-1/1051947001/)
 - Cost of eliminating malaria [[1](https://www.ncbi.nlm.nih.gov/pubmed/25551454)] [[2](https://www.ncbi.nlm.nih.gov/books/NBK215638/)]
 - [Cost of eliminating homelessness](https://www.usich.gov/resources/uploads/asset_library/Ending_Chronic_Homelessness_in_2017.pdf)
 - [Cost of cancer treatments](https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.6647)
@@ -43,7 +43,8 @@ _[A note on the role of citations in this project](https://github.com/MKorostoff
 - [Efficacy of cash transfers](https://www.givedirectly.org/research-on-cash-transfers/)
 
 # About the Author
-One pixel wealth was created by [Matt Korostoff](https://mkorostoff.github.io/)
+
+One pixel amazon was created by [Matt Korostoff](https://mkorostoff.github.io/)
 
 # Against Malaria
 

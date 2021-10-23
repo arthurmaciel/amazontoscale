@@ -1,10 +1,10 @@
-body, html {
+body,
+html {
   margin: 0;
 }
 body,
 html,
-.wealth-wrapper-outer
-.wealth-row {
+.amazon-wrapper-outer .amazon-row {
   min-height: 100%;
 }
 .title-screen {
@@ -54,15 +54,29 @@ h1 {
   }
 }
 @keyframes bouncy-arrow {
-  0% {background-position: 50px 40px;}
-  20% {background-position: 50px 40px;}
-  25% {background-position: 70px 40px;}
-  30% {background-position: 45px 40px;}
-  35% {background-position: 70px 40px;}
-  40% {background-position: 50px 40px;}
-  100% {background-position: 50px 40px;}
+  0% {
+    background-position: 50px 40px;
+  }
+  20% {
+    background-position: 50px 40px;
+  }
+  25% {
+    background-position: 70px 40px;
+  }
+  30% {
+    background-position: 45px 40px;
+  }
+  35% {
+    background-position: 70px 40px;
+  }
+  40% {
+    background-position: 50px 40px;
+  }
+  100% {
+    background-position: 50px 40px;
+  }
 }
-.wealth-wrapper-outer {
+.amazon-wrapper-outer {
   font-family: sans-serif;
   overflow: visible;
   display: inline-block;
@@ -80,14 +94,15 @@ h1 {
   display: flex;
 }
 .navigation .button {
-  color: rgba(0,0,0,0);
+  color: rgba(0, 0, 0, 0);
   width: 20px;
   display: block;
   height: 20px;
   border-radius: 100%;
   background-position: 5px;
   background-color: #d8d8d8;
-  box-shadow: inset 1px 6px 12px #e2e2e2, inset -1px -10px 5px #a9a9a9, 1px 2px 1px #797979;
+  box-shadow: inset 1px 6px 12px #e2e2e2, inset -1px -10px 5px #a9a9a9,
+    1px 2px 1px #797979;
   overflow: hidden;
   margin: 4px;
 }
@@ -117,18 +132,17 @@ h1 {
   line-height: 22px;
 }
 
-
-.wealth-row {
+.amazon-row {
   display: inline-flex;
 }
 .arrow {
   margin-left: -6px;
   margin-top: 5px;
 }
-.wealth-wrapper {
+.amazon-wrapper {
   margin: 1em 3em;
 }
-.wealth {
+.amazon {
   background-color: black;
   align-items: center;
   display: flex;
@@ -136,11 +150,11 @@ h1 {
 .title {
   margin-bottom: 5px;
 }
-.billion .wealth > .wealth-title {
+.billion .amazon > .amazon-title {
   flex-basis: 110px;
   position: static;
 }
-.four-hundred .wealth > .wealth-title {
+.four-hundred .amazon > .amazon-title {
   flex-basis: 420px;
 }
 .four-hundred .infobox.intro {
@@ -149,16 +163,16 @@ h1 {
   width: auto;
   width: 10000px;
 }
-.wealth > .wealth-title {
+.amazon > .amazon-title {
   flex-basis: 1%;
   padding: 10px;
 }
 @media (max-width: 450px) {
-  .wealth-title {
+  .amazon-title {
     font-size: 19px;
   }
 }
-.wealth-title {
+.amazon-title {
   align-self: flex-start;
   position: sticky;
   left: 0;
@@ -275,7 +289,7 @@ h1 {
 .median {
   width: 320px;
 }
-.median .wealth {
+.median .amazon {
   width: 7.94px;
   height: 7.94px;
 }
@@ -286,34 +300,34 @@ h1 {
 .million {
   width: 150px;
 }
-.million .wealth {
+.million .amazon {
   width: 31.62px;
   height: 31.62px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
-.billion .wealth {
+.billion .amazon {
   width: 2000px;
   height: 500px;
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 @media (max-width: 450px) {
-  .billion .wealth {
+  .billion .amazon {
     border-bottom: 3px dotted #007fb7;
   }
 }
-.bezos .wealth {
+.bezos .amazon {
   width: 370000px;
   height: 500px;
   background-color: orange;
 }
-.four-hundred .wealth {
+.four-hundred .amazon {
   margin-left: 100px;
   width: 6401200px;
   height: 500px;
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 .ruler {
-  background-image: url('img/ruler.svg');
+  background-image: url("img/ruler.svg");
   background-repeat: repeat-x;
   background-position: 0 470px;
 }
@@ -334,7 +348,7 @@ h1 {
   background-color: orange;
 }
 .four-hundred .key > span {
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 .shadow {
   box-shadow: -3px 5px 10px;
@@ -367,7 +381,7 @@ h1 {
   height: 400px;
   width: 1186px;
   margin-top: 5px;
-  background-color: #8BC34A;
+  background-color: #8bc34a;
 }
 .year-veteran .title {
   width: auto;
@@ -379,12 +393,12 @@ h1 {
   position: static;
 }
 @media (max-width: 450px) {
- .year-veteran .title {
-   max-width: 210px;
- }
- .year-veteran .square {
-   border-bottom: 4px dashed #75a23e;
- }
+  .year-veteran .title {
+    max-width: 210px;
+  }
+  .year-veteran .square {
+    border-bottom: 4px dashed #75a23e;
+  }
 }
 .year-chemo {
   width: auto;
@@ -392,7 +406,7 @@ h1 {
 .year-chemo .square {
   height: 400px;
   width: 22500px;
-  background-color: #03A9F4;
+  background-color: #03a9f4;
   border: 5px dashed #0078af;
   box-sizing: border-box;
 }
@@ -406,7 +420,7 @@ h1 {
   top: 310px;
 }
 .year-chemo .key > span {
-  background-color: #03A9F4;
+  background-color: #03a9f4;
 }
 .celebrities {
   display: flex;
@@ -420,7 +434,7 @@ h1 {
 .goldman .square {
   width: 223px;
   height: 223px;
-  background-color: #64A8F0;
+  background-color: #64a8f0;
 }
 .tim-cook .square {
   width: 1785px;
@@ -453,7 +467,7 @@ h1 {
   margin-bottom: 5px;
 }
 .zoom.line-chart .chart-inner {
-  transition: box-shadow .8s;
+  transition: box-shadow 0.8s;
   box-shadow: inset 0 0 10px #00000042;
 }
 .zoom.line-chart svg {
@@ -469,7 +483,7 @@ h1 {
   .line-chart .chart-inner .zuck-name {
     font-size: 28px;
   }
-  .zuck-wealth {
+  .zuck-amazon {
     font-size: 20px;
   }
   .line-chart .zero-outer {
@@ -503,7 +517,7 @@ h1 {
   max-width: 390px;
 }
 .people {
-  background-image: url('img/person.svg');
+  background-image: url("img/person.svg");
   background-size: 20px;
 }
 .people.first {
@@ -582,8 +596,8 @@ h1 {
     height: 400px;
   }
   .four-hundred-people .people {
-      width: 200px;
-      height: 400px;
+    width: 200px;
+    height: 400px;
   }
   .sixty-percent-people .people {
     width: 200px;
@@ -637,7 +651,7 @@ h1 {
   }
 }
 .point-zero-three-percent .piechart-inner {
-  stroke-dasharray: .03 100;
+  stroke-dasharray: 0.03 100;
 }
 .two-point-seven-percent .piechart-inner {
   stroke-dasharray: 2.7 100;
@@ -681,7 +695,7 @@ h1 {
   transform: rotate(-46deg);
 }
 .four-tenths-percent .piechart-inner {
-  stroke-dasharray: .4 100;
+  stroke-dasharray: 0.4 100;
 }
 .two-point-five-percent .piechart-inner {
   stroke-dasharray: 2.5 100;
@@ -735,7 +749,7 @@ h1 {
 }
 .about {
   visibility: hidden;
-  transition: opacity .7s;
+  transition: opacity 0.7s;
   opacity: 0;
   position: fixed;
   top: 0;
@@ -757,7 +771,7 @@ h1 {
   height: 0;
   width: 0;
   overflow: scroll;
-  transition: height .7s, width .7s;
+  transition: height 0.7s, width 0.7s;
   background-color: white;
 }
 .modal-text {
