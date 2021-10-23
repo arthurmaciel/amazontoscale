@@ -150,7 +150,7 @@ h1 {
 .title {
   margin-bottom: 5px;
 }
-.billion .amazon > .amazon-title {
+.thousand-square-meter .amazon > .amazon-title {
   flex-basis: 110px;
   position: static;
 }
@@ -297,25 +297,25 @@ h1 {
   font-size: 16px;
   font-weight: normal;
 }
-.million {
+.one-square-meter {
   width: 150px;
 }
-.million .amazon {
+.one-square-meter .amazon {
   width: 31.62px;
   height: 31.62px;
   background-color: #4caf50;
 }
-.billion .amazon {
+.thousand-square-meter .amazon {
   width: 2000px;
   height: 500px;
   background-color: #03a9f4;
 }
 @media (max-width: 450px) {
-  .billion .amazon {
+  .thousand-square-meter .amazon {
     border-bottom: 3px dotted #007fb7;
   }
 }
-.bezos .amazon {
+.deforested .amazon {
   width: 370000px;
   height: 500px;
   background-color: orange;
@@ -344,7 +344,7 @@ h1 {
 .key > span {
   display: inline-block;
 }
-.bezos .key > span {
+.deforested .key > span {
   background-color: orange;
 }
 .four-hundred .key > span {

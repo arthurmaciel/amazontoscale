@@ -1,6 +1,8 @@
-var bezos = document.getElementById("bezos");
-var bezos_counter = document.getElementById("bezos-counter");
-var bezosCounterStart = document.getElementById("bezos-counter-start");
+var deforested = document.getElementById("deforested");
+var deforested_counter = document.getElementById("deforested-counter");
+var deforestedCounterStart = document.getElementById(
+  "deforested-counter-start"
+);
 
 var four_hundred = document.getElementById("four-hundred");
 var four_hundred_counter = document.getElementById("four-hundred-counter");
@@ -88,13 +90,13 @@ babies.addEventListener("scroll", function () {
 });
 
 function update_amazon_counter() {
-  if (bezos_viewable()) {
-    if (bezos_counter_viewable()) {
-      let amazon = (window.scrollX - bezos.offsetLeft + 175) * 500000;
-      bezos_counter.innerHTML =
+  if (deforested_viewable()) {
+    if (deforested_counter_viewable()) {
+      let amazon = (window.scrollX - deforested.offsetLeft + 175) * 500000;
+      deforested_counter.innerHTML =
         amazon < 185000000000 ? money.format(amazon) : "$185,000,000,000";
     } else {
-      bezos_counter.innerHTML = "";
+      deforested_counter.innerHTML = "";
     }
   } else if (four_hundred_viewable()) {
     if (four_hundred_counter_viewable()) {
@@ -105,11 +107,15 @@ function update_amazon_counter() {
       four_hundred_counter.innerHTML = "";
     }
   }
-  function bezos_viewable() {
-    return window.scrollX < bezos.offsetLeft + bezos.offsetWidth + 100;
+  function deforested_viewable() {
+    return (
+      window.scrollX < deforested.offsetLeft + deforested.offsetWidth + 100
+    );
   }
-  function bezos_counter_viewable() {
-    return bezosCounterStart.offsetLeft - window.scrollX < window.innerWidth;
+  function deforested_counter_viewable() {
+    return (
+      deforestedCounterStart.offsetLeft - window.scrollX < window.innerWidth
+    );
   }
   function four_hundred_viewable() {
     return (
