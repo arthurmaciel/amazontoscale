@@ -29,7 +29,7 @@ This page has been translated by volunteers into thirteen languages that I know 
 
 _[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-amazon/issues/40#issuecomment-648932718)_
 
-- [Wealth of richest people](https://www.forbes.com/forbes-400/#15b032877e2f)
+- [Amazon of richest people](https://www.forbes.com/forbes-400/#15b032877e2f)
 - [Perceptions of inequality](https://www.ncbi.nlm.nih.gov/pubmed/26162108)
 - [Salaries of various professions](https://money.usnews.com/careers)
 - [Inequality in earnings](https://www.usatoday.com/story/money/2018/01/22/vast-majority-new-amazon-last-year-went-top-1/1051947001/)
