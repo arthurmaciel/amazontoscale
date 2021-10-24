@@ -150,10 +150,6 @@ h1 {
 .title {
   margin-bottom: 5px;
 }
-.one-square-kilometer .amazon > .amazon-title {
-  flex-basis: 110px;
-  position: static;
-}
 .thousand-square-meter .amazon > .amazon-title {
   flex-basis: 110px;
   position: static;
@@ -209,15 +205,10 @@ h1 {
     width: 90vw;
   }
 }
-.infobox.year-veteran .title {
-  position: sticky;
-  left: 0;
-}
-.infobox.maracana .title {
-  position: sticky;
-  left: 0;
-}
-.infobox.central-park .title {
+.infobox .square .title {
+  width: auto;
+  padding: 10px;
+  max-width: 380px;
   position: sticky;
   left: 0;
 }
@@ -390,21 +381,13 @@ h1 {
   width: 622px;
   height: 300px;
 }
-.maracana .title {
-  width: auto;
-  padding: 10px;
-  max-width: 380px;
-  left: 0;
-}
 .central-park .square {
   width: 11367px;
   height: 300px;
 }
-.central-park .title {
-  width: auto;
-  padding: 10px;
-  max-width: 380px;
-  left: 0;
+.paris .square {
+  width: 351333px;
+  height: 300px;
 }
 .amazon-year .square {
   width: 5.4px;
@@ -416,12 +399,6 @@ h1 {
   width: 1186px;
   margin-top: 5px;
   background-color: #8bc34a;
-}
-.year-veteran .title {
-  width: auto;
-  padding: 10px;
-  max-width: 380px;
-  left: 0;
 }
 .year-veteran .square {
   position: static;
