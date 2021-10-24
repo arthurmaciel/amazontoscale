@@ -281,7 +281,7 @@ h1 {
 .column-infobox .sub-infobox {
   margin-bottom: 20px;
 }
-.one-thousand {
+.one-square-meter {
   width: 1px;
   height: 1px;
   margin-top: 5px;
@@ -297,21 +297,21 @@ h1 {
   font-size: 16px;
   font-weight: normal;
 }
-.one-square-meter {
+.thousand-square-meter {
   width: 150px;
 }
-.one-square-meter .amazon {
+.thousand-square-meter .amazon {
   width: 31.62px;
   height: 31.62px;
   background-color: #4caf50;
 }
-.thousand-square-meter .amazon {
+.million-square-meter .amazon {
   width: 2000px;
   height: 500px;
   background-color: #03a9f4;
 }
 @media (max-width: 450px) {
-  .thousand-square-meter .amazon {
+  .thousand-square-kilometer .amazon {
     border-bottom: 3px dotted #007fb7;
   }
 }
