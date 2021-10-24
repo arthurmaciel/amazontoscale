@@ -92,9 +92,11 @@ babies.addEventListener("scroll", function () {
 function update_amazon_counter() {
   if (deforested_viewable()) {
     if (deforested_counter_viewable()) {
-      let amazon = (window.scrollX - deforested.offsetLeft + 175) * 500000;
+      let amazon = (window.scrollX - deforested.offsetLeft + 175) * 500;
       deforested_counter.innerHTML =
-        amazon < 185000000000 ? money.format(amazon) : "$185,000,000,000";
+        amazon < 729781000000
+          ? money.format(amazon)
+          : "729,781 km<sup>2</sup> (281,770 mi<sup>2</sup>)";
     } else {
       deforested_counter.innerHTML = "";
     }
