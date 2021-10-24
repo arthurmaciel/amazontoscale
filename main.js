@@ -95,8 +95,8 @@ function update_amazon_counter() {
     if (deforested_counter_viewable()) {
       let amazon = (window.scrollX - deforested.offsetLeft + 175) * 500;
       deforested_counter.innerHTML =
-        amazon < 729781000000 // total area in m2 converted into km2
-          ? deforesting.format(amazon) / 1000000
+        amazon < 729781000000
+          ? deforesting.format(amazon)
           : "729,781 km<sup>2</sup> (281,770 mi<sup>2</sup>)";
     } else {
       deforested_counter.innerHTML = "";
