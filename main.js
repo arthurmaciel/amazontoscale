@@ -99,7 +99,7 @@ function update_amazon_counter() {
           ? deforesting.format(amazon)
           : "729,781 km<sup>2</sup> (281,770 mi<sup>2</sup>)";
     } else {
-      deforested_counter.innerHTML = "";
+      deforested_counter.innerHTML = "Counter not working";
     }
   } else if (four_hundred_viewable()) {
     if (four_hundred_counter_viewable()) {
