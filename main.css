@@ -8,7 +8,7 @@ html,
   min-height: 100%;
 }
 .title-screen {
-  width: 100vw;
+  width: 90vw;
 }
 h1 {
   text-align: center;
@@ -43,7 +43,7 @@ h1 {
 }
 .footer {
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   text-align: center;
   font-size: 12px;
   width: 100%;
