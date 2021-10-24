@@ -378,6 +378,12 @@ h1 {
   width: 622px;
   height: 300px;
 }
+.maracana .title {
+  width: auto;
+  padding: 10px;
+  max-width: 380px;
+  left: 0;
+}
 .amazon-year .square {
   width: 5.4px;
   height: 5.4px;
