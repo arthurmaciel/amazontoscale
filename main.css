@@ -362,14 +362,14 @@ h1 {
   padding: 5px;
   min-width: 140px;
 }
-.maracana .square {
-  width: 432px;
-  height: 432px;
+.olimpic-swimming-pool .square {
+  width: 35.36px;
+  height: 35.36px;
   background-color: blue;
 }
-.healthcare .square {
-  width: 4.96px;
-  height: 4.96px;
+.maracana .square {
+  width: 622px;
+  height: 300px;
   background-color: blue;
 }
 .amazon-year .square {
