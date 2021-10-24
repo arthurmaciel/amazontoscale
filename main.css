@@ -318,11 +318,8 @@ h1 {
 .deforested .amazon {
   width: 1459562000px;
   height: 500px;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,144,45,1) 100%);
   );
   /* background-color: orange; */
 }
@@ -368,15 +365,17 @@ h1 {
   padding: 5px;
   min-width: 140px;
 }
+.default-background {
+  background-color: #b02e0c;
+  border: #dddddd 3px solid;
+}
 .olimpic-swimming-pool .square {
   width: 35.36px;
   height: 35.36px;
-  background-color: blue;
 }
 .maracana .square {
   width: 622px;
   height: 300px;
-  background-color: blue;
 }
 .amazon-year .square {
   width: 5.4px;
