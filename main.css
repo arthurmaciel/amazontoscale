@@ -8,7 +8,7 @@ html,
   min-height: 100%;
 }
 .title-screen {
-  width: 90vw;
+  width: 100vw;
 }
 h1 {
   text-align: center;
@@ -23,7 +23,7 @@ h1 {
   height: 165px;
   position: absolute;
   right: 0;
-  bottom: 20 px;
+  bottom: 0;
   padding-top: 42px;
   padding-left: 48px;
 
