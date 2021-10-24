@@ -318,7 +318,13 @@ h1 {
 .deforested .amazon {
   width: 1459562000px;
   height: 500px;
-  background-color: orange;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  /* background-color: orange; */
 }
 .four-hundred .amazon {
   margin-left: 100px;
