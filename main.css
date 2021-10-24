@@ -205,6 +205,10 @@ h1 {
   position: sticky;
   left: 0;
 }
+.infobox.maracana .title {
+  position: sticky;
+  left: 0;
+}
 .infobox .chart,
 .infobox .piechart,
 .infobox .worldchart,
