@@ -4,25 +4,25 @@ var deforestedCounterStart = document.getElementById(
   "deforested-counter-start"
 );
 
-var four_hundred = document.getElementById("four-hundred");
-var four_hundred_counter = document.getElementById("four-hundred-counter");
-var four_hundred_counter_start = document.getElementById(
-  "four-hundred-counter-start"
-);
+// var four_hundred = document.getElementById("four-hundred");
+// var four_hundred_counter = document.getElementById("four-hundred-counter");
+// var four_hundred_counter_start = document.getElementById(
+//   "four-hundred-counter-start"
+// );
 
-var sixtyPercent = document.getElementById("sixty-percent");
-var sixtyPercentIndicator = document.getElementById("sixty-percent-indicator");
-var sixtyPercentScrollPercentage = 0.0;
+// var sixtyPercent = document.getElementById("sixty-percent");
+// var sixtyPercentIndicator = document.getElementById("sixty-percent-indicator");
+// var sixtyPercentScrollPercentage = 0.0;
 var babies = document.getElementById("babies-wrapper");
 var baby_counter = document.getElementById("baby-counter");
 
 var thousand = new Intl.NumberFormat("en-US");
-var money = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD",
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 0,
-});
+// var money = new Intl.NumberFormat("en-US", {
+//   style: "currency",
+//   currency: "USD",
+//   minimumFractionDigits: 0,
+//   maximumFractionDigits: 0,
+// });
 var additional_instructions_shown = false;
 
 function detect_confused_user(e, timer) {
@@ -59,17 +59,17 @@ window.addEventListener("scroll", function () {
   update_amazon_counter();
 });
 
-function generate_sixty_percent() {
-  for (var i = 0; i < 100; i++) {
-    var node = document.createElement("div");
-    node.classList = "people";
-    if (i === 0) {
-      node.classList += " first";
-    }
-    document.getElementById("sixty-percent").appendChild(node);
-  }
-}
-generate_sixty_percent();
+// function generate_sixty_percent() {
+//   for (var i = 0; i < 100; i++) {
+//     var node = document.createElement("div");
+//     node.classList = "people";
+//     if (i === 0) {
+//       node.classList += " first";
+//     }
+//     document.getElementById("sixty-percent").appendChild(node);
+//   }
+// }
+// generate_sixty_percent();
 
 sixtyPercent.addEventListener("scroll", function () {
   let newScroll = (
