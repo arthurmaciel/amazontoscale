@@ -12,9 +12,6 @@ html,
 body {
   font-family: "Zen Old Mincho", serif;
 }
-.title-screen {
-  width: 100vw;
-}
 h1 {
   text-align: center;
   font-size: 60px;
@@ -22,15 +19,21 @@ h1 {
   width: 100%;
   margin-top: 100px;
 }
+.aligned-to-right {
+  margin-left: auto;
+}
+.title-screen {
+  width: 100vw;
+}
+.title-screen > h1 {
+  min-height: 40%;
+}
 .scroll-this-way {
-  align-self: flex-end;
+  text-align: right;
   width: 360px;
   height: 165px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding-top: 42px;
-  padding-left: 48px;
+  padding-top: 35px;
+  padding-left: 56px;
 
   font-size: 30px;
   color: #00000033;
@@ -47,8 +50,6 @@ h1 {
   animation-duration: 3s;
 }
 .footer {
-  position: absolute;
-  bottom: 40px;
   text-align: center;
   font-size: 12px;
   width: 100%;
@@ -82,61 +83,14 @@ h1 {
   }
 }
 .amazon-wrapper-outer {
-  /* font-family: sans-serif; */
   overflow: visible;
   display: inline-block;
 }
-.center-sticky {
+/* .center-sticky {
   position: sticky;
   left: 50%;
   transform: translate(-50%, 0);
-}
-.navigation {
-  position: fixed;
-  bottom: 15px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  display: flex;
-}
-.navigation .button {
-  color: rgba(0, 0, 0, 0);
-  width: 20px;
-  display: block;
-  height: 20px;
-  border-radius: 100%;
-  background-position: 5px;
-  background-color: #d8d8d8;
-  box-shadow: inset 1px 6px 12px #e2e2e2, inset -1px -10px 5px #a9a9a9,
-    1px 2px 1px #797979;
-  overflow: hidden;
-  margin: 4px;
-}
-.navigation .button-inner {
-  background-repeat: no-repeat;
-  background-size: 8px;
-  height: 100%;
-  background-position: 5px;
-}
-.navigation .prev-button .button-inner {
-  background-image: url(img/prev.svg);
-}
-.navigation .next-button .button-inner {
-  background-image: url(img/next.svg);
-  background-position: 7px 5px;
-}
-.navigation .home-button .button-inner {
-  background-image: url(img/house.svg);
-  background-size: 12px;
-  background-position: 4px 4px;
-}
-.navigation .about-button .button-inner {
-  color: #999999;
-  font-weight: bold;
-  text-decoration: none;
-  text-indent: 5px;
-  line-height: 22px;
-}
-
+} */
 .amazon-row {
   display: inline-flex;
 }
@@ -273,8 +227,12 @@ h1 {
 .four-hundred .infobox {
   width: 4000px;
 }
-.flex {
+.flex-row {
   display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 .infobox.first {
   margin-left: 30000px;
@@ -323,8 +281,13 @@ h1 {
   height: 7.94px;
 }
 .explainer {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
+}
+.explainer-1-pixel {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1em 0 1em 0;
 }
 .thousand-square-meter {
   width: 150px;
@@ -363,24 +326,16 @@ h1 {
 .key {
   position: absolute;
   top: 450px;
-  width: 170px;
+  width: 172px;
   background-image: url(img/scale.svg);
   background-repeat: no-repeat;
-  background-position: 0px 4px;
+  background-position: 0 10px;
   display: flex;
   justify-content: center;
 }
-.key > span {
-  display: inline-block;
-}
 .deforested .key > span {
-  background-color: orange;
-}
-.four-hundred .key > span {
-  background-color: #03a9f4;
-}
-.shadow {
-  box-shadow: -3px 5px 10px #00000042;
+  background-color: #e9c46a;
+  padding: 0 10px;
 }
 .counter {
   align-self: flex-end;
