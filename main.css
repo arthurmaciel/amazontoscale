@@ -30,8 +30,8 @@ h1 {
 }
 .scroll-this-way {
   text-align: right;
-  width: 360px;
-  height: 165px;
+  /* width: 360px;
+  height: 165px; */
   padding-top: 35px;
   padding-left: 56px;
 
