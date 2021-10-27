@@ -34,7 +34,7 @@ h1 {
   min-height: 30%;
 
   text-align: right;
-  font-size: 30px;
+  /* font-size:  */
   color: #00000033;
 
   background-image: url(img/right.svg);
@@ -47,6 +47,10 @@ h1 {
   animation-iteration-count: infinite;
   animation-direction: forward;
   animation-duration: 3s;
+}
+.scroll-this-way > span {
+  margin-right: 3em;
+  font-size: 2em;
 }
 @keyframes bouncy-arrow {
   0% {
