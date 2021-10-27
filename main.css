@@ -30,11 +30,9 @@ h1 {
   height: 50%;
 }
 .title-screen .scroll-this-way {
-  background-color: #e9c46a;
   min-height: 30%;
 
   text-align: right;
-  /* font-size:  */
   color: #00000033;
 
   background-image: url(img/right.svg);
@@ -48,7 +46,7 @@ h1 {
   animation-direction: forward;
   animation-duration: 3s;
 }
-.scroll-this-way > span {
+.title-screen .scroll-this-way > span {
   margin-right: 3em;
   font-size: 2em;
 }
