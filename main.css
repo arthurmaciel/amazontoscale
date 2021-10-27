@@ -29,22 +29,18 @@ h1 {
 .title-screen > h1 {
   height: 50%;
 }
-.scroll-this-way {
+.title-screen .scroll-this-way {
+  background-color: #e9c46a;
   min-height: 30%;
-  text-align: right;
-  align-self: center;
-  /* width: 360px;
-  height: 165px; */
-  /* padding-top: 35px; */
-  /* padding-left: 56px; */
 
+  text-align: right;
   font-size: 30px;
   color: #00000033;
 
   background-image: url(img/right.svg);
   background-repeat: no-repeat;
   background-size: 50%;
-  /* background-position: -70vw 40px; */
+  background-position: top 10% right 10%;
 
   animation-name: bouncy-arrow;
   animation-delay: 0;
@@ -54,30 +50,30 @@ h1 {
 }
 @keyframes bouncy-arrow {
   0% {
-    background-position: 50px 40px;
+    background-position: top 10% right 10%;
   }
   20% {
-    background-position: 50px 40px;
+    background-position: top 10% right 10%;
   }
   25% {
-    background-position: 70px 40px;
+    background-position: top 10% right 0%;
   }
   30% {
-    background-position: 45px 40px;
+    background-position: top 10% right 15%;
   }
   35% {
-    background-position: 70px 40px;
+    background-position: top 10% right 0%;
   }
   40% {
-    background-position: 50px 40px;
+    background-position: top 10% right 10%;
   }
   100% {
-    background-position: 50px 40px;
+    background-position: top 10% right 10%;
   }
 }
 .instructions {
   transition: opacity 300ms;
-  margin-top: 40px;
+  margin-top: 2%;
   max-width: 80%;
   color: black;
   font-size: 14px;
