@@ -13,16 +13,10 @@ var deforestedCounterStart = document.getElementById(
 // var sixtyPercent = document.getElementById("sixty-percent");
 // var sixtyPercentIndicator = document.getElementById("sixty-percent-indicator");
 // var sixtyPercentScrollPercentage = 0.0;
-var babies = document.getElementById("babies-wrapper");
-var baby_counter = document.getElementById("baby-counter");
+// var babies = document.getElementById("babies-wrapper");
+// var baby_counter = document.getElementById("baby-counter");
 
 var thousand = new Intl.NumberFormat("en-US");
-// var money = new Intl.NumberFormat("en-US", {
-//   style: "currency",
-//   currency: "USD",
-//   minimumFractionDigits: 0,
-//   maximumFractionDigits: 0,
-// });
 var additional_instructions_shown = false;
 
 function detect_confused_user(e, timer) {
@@ -71,25 +65,26 @@ window.addEventListener("scroll", function () {
 // }
 // generate_sixty_percent();
 
-sixtyPercent.addEventListener("scroll", function () {
-  let newScroll = (
-    (sixtyPercent.scrollTop / sixtyPercent.scrollHeight) *
-    60
-  ).toFixed(1);
-  if (sixtyPercentScrollPercentage !== newScroll) {
-    sixtyPercentScrollPercentage = newScroll;
-    sixtyPercentIndicator.innerHTML = newScroll + "%";
-  }
-});
-babies.addEventListener("scroll", function () {
-  let is_mobile = window.innerWidth <= 450;
-  let bg_size = is_mobile ? 68 : 160;
-  baby_counter.innerHTML = thousand.format(
-    Math.floor((babies.scrollTop / bg_size) * 5)
-  );
-});
+// sixtyPercent.addEventListener("scroll", function () {
+//   let newScroll = (
+//     (sixtyPercent.scrollTop / sixtyPercent.scrollHeight) *
+//     60
+//   ).toFixed(1);
+//   if (sixtyPercentScrollPercentage !== newScroll) {
+//     sixtyPercentScrollPercentage = newScroll;
+//     sixtyPercentIndicator.innerHTML = newScroll + "%";
+//   }
+// });
+// babies.addEventListener("scroll", function () {
+//   let is_mobile = window.innerWidth <= 450;
+//   let bg_size = is_mobile ? 68 : 160;
+//   baby_counter.innerHTML = thousand.format(
+//     Math.floor((babies.scrollTop / bg_size) * 5)
+//   );
+// });
 
 var deforesting = new Intl.NumberFormat("en-US");
+
 function update_amazon_counter() {
   if (deforested_viewable()) {
     if (deforested_counter_viewable()) {
@@ -99,38 +94,35 @@ function update_amazon_counter() {
           ? deforesting.format(amazon)
           : "729,781 km<sup>2</sup> (281,770 mi<sup>2</sup>)";
     } else {
-      deforested_counter.innerHTML = "Counter not working";
-    }
-  } else if (four_hundred_viewable()) {
-    if (four_hundred_counter_viewable()) {
-      let amazon = (window.scrollX - four_hundred.offsetLeft + 175) * 500000;
-      four_hundred_counter.innerHTML =
-        amazon < 3200000000000 ? money.format(amazon) : "$3,200,000,000,000";
-    } else {
-      four_hundred_counter.innerHTML = "";
+      deforested_counter.innerHTML = "";
     }
   }
-  function deforested_viewable() {
-    return (
-      window.scrollX < deforested.offsetLeft + deforested.offsetWidth + 100
-    );
-  }
-  function deforested_counter_viewable() {
-    return (
-      deforestedCounterStart.offsetLeft - window.scrollX < window.innerWidth
-    );
-  }
-  function four_hundred_viewable() {
-    return (
-      window.scrollX < four_hundred.offsetLeft + four_hundred.offsetWidth + 100
-    );
-  }
-  function four_hundred_counter_viewable() {
-    return (
-      four_hundred_counter_start.offsetLeft - window.scrollX < window.innerWidth
-    );
-  }
+  // else if (four_hundred_viewable()) {
+  //   if (four_hundred_counter_viewable()) {
+  //     let amazon = (window.scrollX - four_hundred.offsetLeft + 175) * 500000;
+  //     four_hundred_counter.innerHTML =
+  //       amazon < 3200000000000 ? money.format(amazon) : "$3,200,000,000,000";
+  //   } else {
+  //     four_hundred_counter.innerHTML = "";
+  //   }
 }
-function toggleZoom() {
-  document.getElementById("line-chart").classList.toggle("zoom");
+function deforested_viewable() {
+  return window.scrollX < deforested.offsetLeft + deforested.offsetWidth + 100;
 }
+function deforested_counter_viewable() {
+  return deforestedCounterStart.offsetLeft - window.scrollX < window.innerWidth;
+}
+//   function four_hundred_viewable() {
+//     return (
+//       window.scrollX < four_hundred.offsetLeft + four_hundred.offsetWidth + 100
+//     );
+//   }
+//   function four_hundred_counter_viewable() {
+//     return (
+//       four_hundred_counter_start.offsetLeft - window.scrollX < window.innerWidth
+//     );
+//   }
+// }
+// function toggleZoom() {
+//   document.getElementById("line-chart").classList.toggle("zoom");
+// }
