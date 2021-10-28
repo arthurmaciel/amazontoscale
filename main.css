@@ -16,15 +16,15 @@ body {
 .flex-row {
   display: flex;
 }
-.flex-items-aligned-to-left {
+.with-items-aligned-to-left {
   display: flex;
   justify-content: flex-start;
 }
-.flex-items-aligned-to-center {
+.with-items-aligned-to-center {
   display: flex;
   justify-content: center;
 }
-.flex-items-aligned-to-right {
+.with-items-aligned-to-right {
   display: flex;
   justify-content: flex-end;
 }
@@ -33,25 +33,25 @@ body {
   display: flex;
   flex-direction: column;
 }
-.flex-items-aligned-to-top {
+.with-items-aligned-to-top {
   display: flex;
   flex-direction: column;
 }
-.flex-items-aligned-to-middle {
+.with-items-aligned-to-middle {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.flex-items-aligned-to-bottom {
+.with-items-aligned-to-bottom {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.flex-item-expand {
+.make-item-expand {
   flex: 1;
 }
-.flex-item-expand-twice {
+.make-item-expand-twice {
   flex: 2;
 }
 /* End of layout micro-framework */
@@ -59,19 +59,17 @@ body {
 .title-screen {
   min-width: 99vw;
   max-width: 100vw;
-  height: 100vh;
+  height: 98vh;
 }
 .title-screen .title {
   text-align: center;
   font-size: 60px;
-  /* line-height: 0.9; */
-  background-color: antiquewhite;
+  line-height: 0.9;
   /* margin-top: 100px; */
   /* height: 40vh; */
   /* align-self: center; */
 }
 .title-screen .scroll-this-way {
-  background-color: beige;
   /* height: 35vh; */
 
   /* text-align: right; */
