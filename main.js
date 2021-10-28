@@ -83,15 +83,22 @@ window.addEventListener("scroll", function () {
 //   );
 // });
 
+var total_deforested = 729781;
 var deforesting = new Intl.NumberFormat("en-US");
 
 function update_amazon_counter() {
   if (deforested_viewable()) {
     if (deforested_counter_viewable()) {
-      let amazon = (window.scrollX - deforested.offsetLeft + 175) * 500;
+      let amazon =
+        // the amount of pixels inside deforested area times 500 pixels of height, with each pixel
+        // representing 100 square meters, converted to square kilometers by diving by 1,000,000
+        ((window.scrollX - deforested.offsetLeft + 175) * 500 * 100) / 1000000;
       deforested_counter.innerHTML =
-        amazon < 729781000000
-          ? deforesting.format(amazon)
+        amazon < total_deforested
+          ? deforesting.format(amazon) +
+            " km<sup>2</sup> (" +
+            deforesting.format(amazon * 0.3861022) +
+            "mi<sup>2</sup>)"
           : "729,781 km<sup>2</sup> (281,770 mi<sup>2</sup>)";
     } else {
       deforested_counter.innerHTML = "";
