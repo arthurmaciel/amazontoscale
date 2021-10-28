@@ -59,7 +59,7 @@ body {
 .title-screen {
   min-width: 99vw;
   max-width: 100vw;
-  height: 98vh;
+  height: 80vh;
 }
 .title-screen .title {
   text-align: center;
@@ -71,7 +71,7 @@ body {
 }
 .title-screen .scroll-this-way {
   /* height: 35vh; */
-
+  background-color: burlywood;
   /* text-align: right; */
   color: #00000033;
 
