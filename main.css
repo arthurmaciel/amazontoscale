@@ -355,7 +355,7 @@ body {
   }
 }
 .deforested .amazon {
-  width: 14595620px;
+  width: 14595620px; /* 14595620px; */
   height: 500px;
   background-color: #e9c46a;
 }
