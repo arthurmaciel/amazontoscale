@@ -11,6 +11,8 @@ html {
 body {
   font-family: "Zen Old Mincho", serif;
 }
+
+/* Layout micro-framework */
 .flex-row {
   display: flex;
 }
@@ -26,12 +28,7 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-.flex-item-expand {
-  flex: 1;
-}
-.flex-item-expand-twice {
-  flex: 2;
-}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -51,23 +48,18 @@ body {
   justify-content: flex-end;
 }
 
-.main-wrapper {
-  /* overflow: visible; */
-  display: flex;
+.flex-item-expand {
+  flex: 1;
 }
+.flex-item-expand-twice {
+  flex: 2;
+}
+/* End of layout micro-framework */
+
 .title-screen {
   min-width: 99vw;
   max-width: 100vw;
   height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
-}
-.title-screen > div {
-  /* flex: 1; */
-  /* height: 100%; */
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center; */
 }
 .title-screen .title {
   text-align: center;
@@ -87,7 +79,7 @@ body {
 
   background-image: url(img/right.svg);
   background-repeat: no-repeat;
-  /* background-size: 50%; */
+  background-size: 50%;
   background-position: top 10% right 10%;
 
   animation-name: bouncy-arrow;
